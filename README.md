@@ -13,7 +13,7 @@
   * 이미지 파일 업로드
 ![4](./src/4.JPG)
   * Text 추출.
-![2](./src/2.JPG)
+![5](./src/5.JPG)
 
 ## 개발 환경
 - npm install
