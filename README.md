@@ -19,8 +19,7 @@
 - npm install
 - pytesseract
 - opencv with python3
-## 향후 계획
-- 현재 스캐너 모듈이 다양한 크기의 이미지를 지원 하지못함. 수정예정
+
 
 ## 수정 내역
  * [20.05.11] 레파지토리 생성
