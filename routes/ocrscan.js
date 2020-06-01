@@ -67,7 +67,10 @@ router.post('/', function(req, res, next) {
                     console.log(err)
                 }
                 else{
-                    var article = fs.readFileSync("./public/uploads/temp.txt");
+                    var text='';
+                    var nl = '\n'.charCodeAt(0);
+                    var article = fs.readFileSync("./public/uploads/temp.txt", 'utf-8');
+                    console.log(article);
                     res.render('OcrScan',{
                     msg: ''+article,
                     file : 'uploads/'+req.file.filename
