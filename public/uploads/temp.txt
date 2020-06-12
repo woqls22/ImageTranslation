@@ -1,17 +1,1 @@
-Tesseract at UB Mannheim
-
-The Mannheim University Library (UB Mannheim) uses Tesseract to perform OCR (optical character
-recognition) of historical German newspapers (Allgemeine PreuBische Staatszeitung, Deutscher
-Reichsanzeiger). The latest results with OCR from more than 360,000 scans are available online.
-
-Normally we run Tesseract on Debian GNU Linux, but there was also the need for a Windows version
-That's why we have built a Tesseract installer for Windows.
-
-WARNING: Tesseract should be either installed in the directory which is suggested during the
-installation or in a new directory. The uninstaller removes the whole installation directory. If you
-installed Tesseract in an existing directory, that directory will be removed with all its
-subdirectories and files.
-
-The latest installers can be downloaded here:
-
-© tesseract-ocr-w32-setup-v5.0.0-alpha.20191030.exe (32 bit) and
+Empty
