@@ -6,6 +6,16 @@
 ## URL
 http://110.10.18.79:23023
 
+## 개발 환경
+- npm, express
+- pytesseract(OCR Library with python3)
+- opencv with python3
+
+## 설치 방법
+- npm install
+- OCR라이브러리 pytesseract설치: https://github.com/tesseract-ocr/tesseract/wiki/4.0-with-LSTM#400-alpha-for-windows 
+- pip3 install opencv-python
+
 ## 사용방법
   * 이미지 파일 업로드
 ![1](./src/1.JPG)
@@ -18,10 +28,6 @@ http://110.10.18.79:23023
   * Text 추출.
 ![5](./src/5.JPG)
 
-## 개발 환경
-- npm install
-- pytesseract
-- opencv with python3
 
 
 ## 수정 내역
