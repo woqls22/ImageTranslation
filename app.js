@@ -5,7 +5,7 @@ var OCRScanner = require('./routes/ocrscan.js');
 var AutoScanner = require('./routes/upload.js')
 //Init App
 const app = express();
-const port = 3000;
+const port = 23023;
 // EJS
 app.set('view engine', 'ejs');
 //Public Folder
