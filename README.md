@@ -17,24 +17,23 @@ http://110.10.18.79:23023
 - OCR라이브러리 pytesseract설치: https://github.com/tesseract-ocr/tesseract/wiki/4.0-with-LSTM#400-alpha-for-windows 
 - pip3 install opencv-python
 
+* * *
 ## 사용방법
-> 이미지 파일 업로드
-
+> * 이미지 파일 업로드
 ![1](./src/1.JPG)
-> 스캔 이미지 반환[문서 영역 자동 추출]
 
+> * 스캔 이미지 반환[문서 영역 자동 추출]
 ![2](./src/2.JPG)
-> 문서 TEXT 추출 [영어이미지 지원]
 
+> * 문서 TEXT 추출 [영어이미지 지원]
 ![3](./src/3.JPG)
 
-> 이미지 파일 업로드
+> * 이미지 파일 업로드
 ![4](./src/4.JPG)
 
-> Text 추출.
+> * Text 추출.
 ![5](./src/5.JPG)
-
-
+* * *
 
 ## 수정 내역
  * [20.05.11] 레파지토리 생성
