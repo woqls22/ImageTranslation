@@ -11,6 +11,7 @@ http://110.10.18.79:23023
 - npm, express
 - pytesseract(OCR Library with python3)
 - opencv with python3
+- PaPago Naver API
 
 ## 설치 방법
 - npm install
