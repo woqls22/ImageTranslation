@@ -17,7 +17,7 @@ print(args_image)
 image = resize(cv2.imread(args_image))
 orig = image.copy()
 # convert image to gray scale. This will remove any color noise
-grayImage = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+grayImage = cv2.cvtColor(orig, cv2.COLOR_BGR2GRAY)
 grayImage = cv2.GaussianBlur(grayImage,(3,3),0)
 edged = cv2.Canny(grayImage,75,200) #canny edge경계검출
 cnts,heirarchy = cv2.findContours(edged.copy(), cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
