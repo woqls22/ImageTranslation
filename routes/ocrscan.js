@@ -54,6 +54,8 @@ router.post('/', function(req, res, next) {
                 msg: 'Error : No File Selected!'
             });
         } else{
+            console.log('======================', new Date() ,'======================');
+                console.log('====================== OCR 요청======================');
             var options = {
                 mode: 'text',
                 pythonPath: '',

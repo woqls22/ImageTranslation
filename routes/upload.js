@@ -45,8 +45,8 @@ router.post('/',function(req,res){
                     msg: 'Error : No File Selected!'
                 });
             } else{
-                console.log(req.file.filename);
-                console.log(typeof(req.file.filename))
+                console.log('======================', new Date() ,'======================');
+                console.log('======================이미지 스캔 요청======================');
                 var options = {
                     mode: 'text',
                     pythonPath: '',
