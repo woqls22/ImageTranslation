@@ -41,7 +41,7 @@ http://110.10.18.79:23023
 * 한글 번역 결과
 ![7](./src/7.JPG)
 
-* Text Extraction이 수행된 상황에서 번역버튼 클릭
+* 한글 이미지 Text Extraction
 ![8](./src/8.JPG)
 
 ![9](./src/9.JPG)
