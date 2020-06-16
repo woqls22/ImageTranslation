@@ -15,11 +15,11 @@ http://110.10.18.79:23023
 
 ## 설치 방법
 1. 리포지토리 clone
-'''
+'''sh
 git clone http://khuhub.khu.ac.kr/2015102747/Scan_My_Image.git
 '''
 2. dependency 모듈 설치
-```
+```sh
 npm install
 ```
 3. OCR라이브러리 pytesseract설치
@@ -27,7 +27,7 @@ npm install
 https://github.com/tesseract-ocr/tesseract/wiki/4.0-with-LSTM#400-alpha-for-windows 
 ```
 4. Open CV 라이브러리 설치
-```
+```sh
 pip3 install opencv-python
 ```
 5. 파파고 api 키 발급, translate.js모듈에 KEY, PW 입력
@@ -35,7 +35,7 @@ pip3 install opencv-python
 https://developers.naver.com/docs/papago/
 ```
 6. 실행
-```
+```sh
 node app.js
 ```
 
