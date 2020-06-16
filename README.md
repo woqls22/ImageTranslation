@@ -15,9 +15,8 @@ http://110.10.18.79:23023
 
 ## 설치 방법
 1. 리포지토리 clone
-
 '''
-git clone http://khuhub.khu.ac.kr/2015102747/Scan_My_Image.git
+git clone [http://khuhub.khu.ac.kr/2015102747/Scan_My_Image.git]
 '''
 2. dependency 모듈 설치
 ```
