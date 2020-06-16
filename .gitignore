@@ -1,2 +1,4 @@
 # Dependency directories
 node_modules/
+public/uploads/temp.txt
+routes/translate.js
