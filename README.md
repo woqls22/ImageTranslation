@@ -24,7 +24,7 @@ npm install
 ```
 3. OCR라이브러리 pytesseract설치
 ```
-https://github.com/tesseract-ocr/tesseract/wiki/4.0-with-LSTM#400-alpha-for-windows 
+설치 url : https://github.com/tesseract-ocr/tesseract/wiki/4.0-with-LSTM#400-alpha-for-windows 
 ```
 4. Open CV 라이브러리 설치
 ```
@@ -32,7 +32,7 @@ pip3 install opencv-python
 ```
 5. 파파고 api 키 발급, translate.js모듈에 KEY, PW 입력
 ```
-https://developers.naver.com/docs/papago/
+발급 url : https://developers.naver.com/docs/papago/
 ```
 6. 실행
 ```
